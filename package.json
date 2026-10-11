@@ -1,0 +1,15 @@
+{
+  "name": "env-agree",
+  "version": "0.1.0",
+  "description": "Report when the environment variables that decide where tools read and write disagree with each other.",
+  "type": "module",
+  "bin": { "env-agree": "./bin/env-agree.js" },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["environment", "home", "appdata", "npm", "config", "cli"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/ddg94360-code/env-agree.git" },
+  "bugs": { "url": "https://github.com/ddg94360-code/env-agree/issues" },
+  "homepage": "https://github.com/ddg94360-code/env-agree#readme"
+}
